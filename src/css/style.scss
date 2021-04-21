@@ -9,9 +9,22 @@ $body-color: #343539;
 
 body {
     background-color: $body-color;
+    font-family: Helvetica;
 }
 
-.box {
-    color: green;
-    font-size: 25px;
+.header__title {
+    color: #fff;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 68px;
+}
+
+.form__block-number {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-color: red;
+    border-radius: 50%;
+    padding: 5px;
 }
