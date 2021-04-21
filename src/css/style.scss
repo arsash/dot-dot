@@ -1,0 +1,17 @@
+$body-color: #343539;
+;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $body-color;
+}
+
+.box {
+    color: green;
+    font-size: 25px;
+}
