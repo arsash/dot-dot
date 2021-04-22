@@ -7,19 +7,72 @@
     <title>Document</title>
 </head>
 <body>
-    <header class="header">
-        <h1 class="header__title">FTL: Прямая машина</h1>
-    </header>
-    <form action="" class="form">
-        <div class="form__block">
-            <h3 class="form__title">
-                <span class="form__block-number">1</span>
-                Маршрут
-            </h3>
-            <label for="from" class="form__label">Откуда</label>
-            <input type="text" name="" id="from">
+    <div class="wrapper">
+        <div class="container">
+            <header class="header">
+                <h1 class="header__title">FTL: Прямая машина</h1>
+            </header>
+            <form action="" class="form">
+                <div class="form__block">
+                    <h3 class="form__title">
+                        <span class="form__block-number">1</span>
+                        Маршрут
+                    </h3>
+                    <div class="path">
+                        <label for="from" class="path__label">Откуда</label>
+                        <input type="text" name="" id="from" class="path_input">
+                        <label for="to" class="path__label">Куда</label>
+                        <input type="text" name="" id="to" class="path_input">
+                    </div>
+                    <h3 class="form__title">
+                        <span class="form__block-number">2</span>
+                        Транспорт
+                    </h3>
+                    <div class="lifting">
+                        <div class="lifting__block">
+                            <label for="from" class="lifting__label">Грузоподъемность</label>
+                                <select name="" id="">
+                                    <option value="" disabled selected>Не выбрано</option>
+                                    <option value="">Вариант 1</option>
+                                    <option value="">Вариант 2</option>
+                                    <option value="">Вариант 3</option>
+                                    <option value="">Вариант 4</option>
+                                    <option value="">Вариант 5</option>
+                                </select>
+                        </div>
+                        <div class="lifting__block">
+                            <label for="from" class="lifting__label">Способ погрузки</label>
+                                <select name="" id="">
+                                    <option value="">Задняя</option>
+                                </select>
+                        </div>
+                    </div>
+                    <h3 class="form__title">
+                        <span class="form__block-number">3</span>
+                        Груз
+                    </h3>
+                    <div class="lifting">
+                        <div class="lifting__block">
+                            <label for="from" class="lifting__label">Класс опасности</label>
+                                <select name="" id="">
+                                    <option value="" disabled selected>Не выбрано</option>
+                                    <option value="">Вариант 1</option>
+                                    <option value="">Вариант 2</option>
+                                    <option value="">Вариант 3</option>
+                                    <option value="">Вариант 4</option>
+                                    <option value="">Вариант 5</option>
+                                </select>
+                        </div>
+                        <div class="lifting__block">
+                            <label for="from" class="lifting__label">Объявленная ценность, Р</label>
+                                <select name="" id="">
+                                    <option value="">Задняя</option>
+                                </select>
+                        </div>
+                    </div>
+                </div>
+            </form>
         </div>
-        <label for="" class="form__row"></label>
-    </form>
+    </div>
 </body>
 </html>
