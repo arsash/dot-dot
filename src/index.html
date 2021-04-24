@@ -51,23 +51,26 @@
                         <span class="form__block-number">3</span>
                         Груз
                     </h3>
-                    <div class="lifting">
-                        <div class="lifting__block">
-                            <label for="from" class="lifting__label">Класс опасности</label>
-                                <select name="" id="">
-                                    <option value="" disabled selected>Не выбрано</option>
-                                    <option value="">Вариант 1</option>
-                                    <option value="">Вариант 2</option>
-                                    <option value="">Вариант 3</option>
-                                    <option value="">Вариант 4</option>
-                                    <option value="">Вариант 5</option>
-                                </select>
+                    <div class="cargo">
+                        <div class="cargo__type">
+                            <label for="type" class="cargo__label">Тип груза</label>
+                            <input type="text" name="" id="type" class="cargo__input">
                         </div>
-                        <div class="lifting__block">
-                            <label for="from" class="lifting__label">Объявленная ценность, Р</label>
-                                <select name="" id="">
-                                    <option value="">Задняя</option>
-                                </select>
+                        <div class="cargo__danger">
+                            <div class="cargo__block">
+                                <label for="from" class="cargo__label">Класс опасности</label>
+                                    <select name="" id="">
+                                        <option value="" disabled selected>Не выбрано</option>
+                                    </select>
+                            </div>
+                            <div class="cargo__block">
+                                <label for="from" class="cargo__label">Объявленная ценность</label>
+                                <input type="text" name="" id="from" class="cargo__input">
+                            </div>
+                        </div>
+                        <div class="cargo__temperature">
+                            <input type="checkbox" name="" id="temperature" class="cargo__temperature-checkbox">
+                            <label for="temperature" class="temperature">Требуется температурный режим</label>
                         </div>
                     </div>
                 </div>
