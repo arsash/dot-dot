@@ -45,7 +45,7 @@ body {
 }
 
 .form {
-    width: 728px;
+    // width: 728px;
 }
 
 .form__title {
@@ -179,4 +179,16 @@ body {
     color: #fff;
     font-size: 13px;
     margin-left: 12px;
+}
+
+.time {
+    width: 100%;
+}
+
+.time__text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 13px;
 }
