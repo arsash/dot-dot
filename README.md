@@ -6,7 +6,7 @@
 ##  Чтобы развернуть проект необходимо:
 ```sh
 $ git clone https://github.com/arsash/dot-dot.git
-$ cd portfolio
+$ cd dot-dot
 $ npm i
 ```
 
